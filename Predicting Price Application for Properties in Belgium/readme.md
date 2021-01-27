@@ -1,0 +1,1 @@
+https://mremreozan.github.io/Data-Scientist-Projects/Predicting%20Price%20Application%20for%20Properties%20in%20Belgium/app-frontend/
