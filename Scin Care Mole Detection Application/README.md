@@ -100,4 +100,6 @@ To further develop the CNN we could have more layers, a deeper CNN which would a
 
 ## Result
 
-<img src="assets/result1.png" width="600" height="400">
+<img src="assets/result1.png" width="600" height="350">
+<br>
+<img src="assets/result1.png" width="600" height="350">
