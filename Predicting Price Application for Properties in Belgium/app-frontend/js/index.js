@@ -2,7 +2,7 @@ const proxyurl = "https://cors-anywhere.herokuapp.com/"; //indispensable pour l'
 // const url = "https://becode-predict-ades.herokuapp.com/predict"; //API Saba
 // {"0":{"property-type":"APARTMENT","rooms-number":2,"zip-code":1000,"full-address":"","facades-number":2,"area":150}} // API Saba
 
-const url = "http://roberta-eliza.herokuapp.com/predict"; //API Luis
+const url = "https://young-springs-27030.herokuapp.com/predict"; //API Luis
 
 
 
