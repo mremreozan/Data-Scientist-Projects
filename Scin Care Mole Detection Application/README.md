@@ -98,7 +98,7 @@ Although the model gave an accuracy of 80%, we were not able to try out some pre
 To further develop the CNN we could have more layers, a deeper CNN which would allow for a higher accuracy. We could also train for more epochs.
 
 
-## Result
+## Results (first is malignant mole, second is bening mole.)
 
 <img src="assets/result1.png" width="600" height="350">
 <br>
