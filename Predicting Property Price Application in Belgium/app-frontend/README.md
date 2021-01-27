@@ -1,45 +1,43 @@
-# Bouman-Johnson-housing-project
+## The project's objectives
 
-## Objectifs du projet
+You work for a housing company called "ImmoEliza". You have been contacted by your company's R & D / AI department because they need your skills.
 
-Vous travaillez pour une société de logement appelée "ImmoEliza". Vous avez été contacté par le service R & D / AI de votre entreprise car ils ont besoin de vos compétences.
+They just finished creating an API to predict the price of a house. They are really happy with how this app works, but they need it to be used in the case of a web app that the sales team can use.
 
-Ils viennent de finir de créer une API permettant de prédire le prix d'une maison. Ils sont vraiment satisfaits du fonctionnement de cette application, mais ils en ont besoin pour être utilisés dans le cas d'une application Web que l'équipe commerciale peut utiliser.
+As you know, they are really crazy about computers and software, we need you to create an application that will bridge the gap between our R&D department and the end user: our sales team.
 
-Comme vous le savez, ils sont vraiment ding dongs sur les ordinateurs et les logiciels, nous avons besoin de vous pour créer une application qui fera le pont entre notre service R&D et l'utilisateur final: notre équipe commerciale.
+The application will be quite simple. He only needs two things. First. A shape. The form will be for user two complete with information about the house. This form will be connected to the API. The second thing is how to display the results. We don't really have much to say about it. It could be a pop-up, another page, you have wiggle room there.
 
-L'application sera assez simple. Il n'a besoin que de deux choses. Première. Une forme. Le formulaire sera pour l'utilisateur deux complet avec des informations sur la maison. Ce formulaire sera connecté à l'API. La deuxième chose est la façon d'afficher les résultats. Nous n'avons pas vraiment grand chose à dire à ce sujet. Cela pourrait être une fenêtre contextuelle, une autre page, vous avez une marge de manœuvre là-bas.
+## Learning objectives (if it is a learning challenge)
 
-## Objectifs d'apprentissage (s'il s'agit d'un défi d'apprentissage)
+backend: connection to a house API using javascript and fetch (or some other way;)) -> fetch on MDN
+frontend: creation of a user-friendly form and a clear results page.
 
-backend: connexion à une API maison en utilisant javascript et récupération (ou d'une autre manière;)) -> récupération sur MDN
-frontend: création d'un formulaire convivial et d'une page de résultats claire.
+## Indispensable features
 
-## Fonctionnalités indispensables
-
-Une forme
-Affichage des résultats
-une autre page
-apparaitre
+A shape
+Results display
+another page
+appear
 ...
 
 ## Nice to have
 
-déployez votre application à l'aide d'un fournisseur d'hébergement que vous n'utilisiez pas auparavant.
+deploy your app using a hosting provider that you haven't used before.
 
-## Informations diverses
+## Various information
 
-Vous serez affecté à un référent IA. ils ne seront pas à vos côtés tout le temps, mais ils ont reçu des informations claires sur le fait de tout laisser tomber et viennent répondre à vos questions pendant ces deux jours! Utilisez leurs connaissances chaque fois que vous sentez que le problème est lié à l'API et non au développement Web :)
+You will be assigned to an AI referrer. they will not be by your side all the time, but they have been given clear information about dropping everything and coming to answer your questions during those two days! Use their knowledge whenever you feel the issue is API related, not web development :)
 
-## Quand ?
+## When?
   
-Du lundi 14/12/2020 au mardi 15/12/2020
+From Monday 14/12/2020 to Tuesday 15/12/2020
 
-## Qui ?
+## Who ?
 
-Yassin Makrai : web developer junior section johnson 5.25
-Saba : stagiaire en AI section bouman
+Yassin Makrai: junior web developer section johnson 5.25
+Saba: intern in AI section bouman
 
-## Où ?
+## Or ? 
 
-[cliquez ici pour voir le résultat ^^](https://mremreozan.github.io/Data-Scientist-Projects/Predicting%20Price%20Application%20for%20Properties%20in%20Belgium/app-frontend/)
+[click here to see the application ^^](https://mremreozan.github.io/Data-Scientist-Projects/Predicting%20Price%20Application%20for%20Properties%20in%20Belgium/app-frontend/)
