@@ -2,7 +2,7 @@
 
 ## About The Project
 
-In this project at Becode we developed an application to predict property price in Belgium. We used gradient boosting algorithm to create a model in machine learning. This application constitutes of backend and frontend part. Everyone can reach this application on internet thanks to Heroku platform.
+In this project at Becode we developed an application to predict property price in Belgium. Data source is Immoweb. We used gradient boosting algorithm to create a model in machine learning. This model predict prices according to property's parameters like area, location, room number. This application constitutes of backend and frontend part. Everyone can reach this application on internet thanks to Heroku platform.
 
 ## App-Backend
 
