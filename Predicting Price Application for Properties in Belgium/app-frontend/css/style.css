@@ -1,0 +1,49 @@
+
+body{
+    background-image: url(../image/city.jpg);
+    background-size: cover;
+    padding: 5%;
+}
+
+#container{
+    background-color: #ffffff82;
+}
+
+#logo{
+    width: 25%;
+    padding: 2%;
+}
+
+h2{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold !important;
+}
+
+#container{
+    width: 50%;
+}
+
+#formulaire{
+    width: 95%;
+    margin: auto;
+}
+
+#price{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    background-color: #33333359;
+}
+
+@media only screen and (max-width: 1100px) {
+    #container{
+        width: 75%;;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #container{
+        width: 95%;;
+    }
+}
