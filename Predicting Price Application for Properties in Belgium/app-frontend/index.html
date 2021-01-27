@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>Bouman-Johnson-housing-project</title>
+</head>
+<body>
+    <div id="container" class="m-auto text-center text-dark fw-bold m-auto rounded">
+        <img id="logo" src="image/immoelisa.png" alt="logo">
+        <h2>Prediction: price of your ideal accommodation</h2>
+        <br>
+        <div id="formulaire">
+            <form>
+                <select id="type" class="form-select" aria-label="typeAccommodation" style="background-color: rgb(207, 209, 212);">
+                    <option selected  value="apartment">Select the type of accommodation you want</option>
+                    <option  value="apartment">Apartement</option> 
+                    <option  value="house">House</option>
+                    <option  value="others">Others</option>
+                </select>
+                <br>
+                <label for="area" class="form-label">Area:</label>
+                <div id="divarea" class="mb-3 input-group">
+                    <input type="number" class="form-control text-center" id="area" name="area" required>
+                    <span class="input-group-text">m²</span> 
+                </div>
+                <div id="divroom" class="mb-3">
+                    <label for="room" class="form-label">How many rooms do you want?</label>
+                    <input type="number" class="form-control text-center" id="room" name="room" required>
+                </div>
+                <label for="zip" class="form-label">zip-code:</label>
+                <div id="divzip" class="mb-3">
+                    <input type="number" maxlength="4" class="form-control text-center" id="zip" name="zip" required> 
+                </div>
+                <label for="garden" class="form-label">Do you want a garden (optional)?</label>
+                <select id="garden" class="form-select" aria-label="garden">
+                    <option selected name="garden" value="false">No</option>
+                    <option name="garden" value="true">Yes</option>
+                </select>
+                <br>
+                <label for="equipped-kitchen" class="form-label">Do you want a equipped-kitchen (optional)?</label>
+                <select id="kitchen" class="form-select" aria-label="equipped-kitchen">
+                    <option selected name="equipped-kitchen" value="false">No</option>
+                    <option name="equipped-kitchen" value="true">Yes</option>
+                </select>
+                <br>
+                <label for="swimmingpool" class="form-label">Do you want a swimmingpool (optional)?</label>
+                <select id="swimmingpool" class="form-select" aria-label="swimmingpool">
+                    <option selected name="swimmingpool" value="false">No</option>
+                    <option name="swimmingpool" value="true">Yes</option>
+                </select>
+                <br>
+                <label id="terrace" for="terrace" class="form-label">Do you want a terrace (optional)?</label>
+                <select class="form-select" aria-label="terrace">
+                    <option selected name="terrace" value="false">No</option>
+                    <option name="terrace" value="true">Yes</option>
+                </select>
+                <br>
+                <select id="state" class="form-select" aria-label="building-state" style="background-color: rgb(207, 209, 212);">
+                    <option selected value="NEW">Select the state of accommodation you want (optional)</option>
+                    <option value="NEW">New</option>
+                    <option value="GOOD">Good</option>
+                    <option value="TO RENOVATE">To renovate</option>
+                </select>
+                <br>
+                <input type="submit" class="btn btn-primary" name="go" id="go" value="GO">
+                <br>
+                <br>
+            </form>
+        </div>
+        <script src="js/index.js"></script>
+
+    </div>
+</body>
+</html>
