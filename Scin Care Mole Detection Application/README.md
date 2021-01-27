@@ -4,6 +4,8 @@ Caution: You can use or look at this application with this link -> https://radia
 
 Convolutional Neural Network image classifier using Keras and tensorflow backed, deployed on Heroku.
 
+<img src="assets/ai-care.jpg" width="300" height="150">
+
 ## Introduction
 
 The team has been commissioned by the health care company "skinCare" to create an application that can detect when a mole is dangerous, and advice the user to go to see the doctor. 
@@ -94,3 +96,8 @@ heroku container:release web -a <heroku repository name>
 ## What's left
 Although the model gave an accuracy of 80%, we were not able to try out some preprocssing using openCV to see if this affects its accuracy.
 To further develop the CNN we could have more layers, a deeper CNN which would allow for a higher accuracy. We could also train for more epochs.
+
+
+## Result
+
+<img src="assets/result1.png" width="600" height="400">
