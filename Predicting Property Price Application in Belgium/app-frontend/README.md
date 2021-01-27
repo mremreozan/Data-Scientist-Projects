@@ -42,4 +42,4 @@ Saba : stagiaire en AI section bouman
 
 ## Où ?
 
-[cliquez ici pour voir le résultat ^^](https://makraiyassin.github.io/Bouman-Johnson-housing-project/)
+[cliquez ici pour voir le résultat ^^](https://mremreozan.github.io/Data-Scientist-Projects/Predicting%20Price%20Application%20for%20Properties%20in%20Belgium/app-frontend/)
