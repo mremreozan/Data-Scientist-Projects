@@ -38,6 +38,6 @@ From Monday 14/12/2020 to Tuesday 15/12/2020
 Yassin Makrai: junior web developer section johnson 5.25
 Saba: intern in AI section bouman
 
-## Or ? 
+## Where ? 
 
 [click here to see the application ^^](https://mremreozan.github.io/Data-Scientist-Projects/Predicting%20Property%20Price%20Application%20in%20Belgium/app-frontend/)
