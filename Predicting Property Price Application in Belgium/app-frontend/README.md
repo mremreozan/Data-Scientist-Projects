@@ -40,4 +40,4 @@ Saba: intern in AI section bouman
 
 ## Or ? 
 
-[click here to see the application ^^](https://mremreozan.github.io/Data-Scientist-Projects/Predicting%20Price%20Application%20for%20Properties%20in%20Belgium/app-frontend/)
+[click here to see the application ^^](https://mremreozan.github.io/Data-Scientist-Projects/Predicting%20Property%20Price%20Application%20in%20Belgium/app-frontend/)
