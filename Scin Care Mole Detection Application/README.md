@@ -1,4 +1,4 @@
-!!! Caution: [click here to see application ^^](https://radiant-wave-54553.herokuapp.com) -> 
+!!! Caution: [click here to see application ^^ Please wait 90 seconds (max) after click](https://radiant-wave-54553.herokuapp.com) -> 
 
 # Mole Identification Application
 
