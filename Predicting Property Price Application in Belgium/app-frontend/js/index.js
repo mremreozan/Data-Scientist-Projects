@@ -34,13 +34,13 @@ document.querySelector("#go").addEventListener("click",function(event){
     // console.log(state);
 
     if (document.querySelector("#area").value == false) {
-        document.querySelector("#divarea").insertAdjacentHTML("afterend",`<p class="error" style="color:red">veuillez remplir ce champ</p>`)
+        document.querySelector("#divarea").insertAdjacentHTML("afterend",`<p class="error" style="color:red">Please fill in this field </p>`)
     }
     if (document.querySelector("#zip").value == false || zipcode < 1000 || zipcode > 9999 ){
-        document.querySelector("#divzip").insertAdjacentHTML("afterend",`<p class="error" style="color:red">veuillez remplir ce champ avec un code postal valable (en quatre chiffres)</p>`)
+        document.querySelector("#divzip").insertAdjacentHTML("afterend",`<p class="error" style="color:red">Please fill in this field with a valid postal code (four digits) </p>`)
     }
     if (document.querySelector("#room").value == false) {
-        document.querySelector("#divroom").insertAdjacentHTML("afterend",`<p class="error" style="color:red">veuillez remplir ce champ</p>`)
+        document.querySelector("#divroom").insertAdjacentHTML("afterend",`<p class="error" style="color:red">Please fill in this field</p>`)
     }
     if (document.querySelector("#area").value != false && document.querySelector("#zip").value != false && document.querySelector("#room").value != false && zipcode >= 1000 && zipcode <= 9999 ){
 
@@ -70,12 +70,12 @@ document.querySelector("#go").addEventListener("click",function(event){
         .then(data => {
             console.log(data);
             // document.querySelector("#go").insertAdjacentHTML("afterend",`<p id="price">price: ${data.prediction[0]} € </p>`) //API Saba
-            document.querySelector("#go").insertAdjacentHTML("afterend",`<p id="price">price: ${data.prediction.price} € </p>`)
+            document.querySelector("#go").insertAdjacentHTML("afterend",`<p id="price">price: ${data.prediction} € </p>`)
 
         })
         .catch(() => console.log("Can’t access " + url + " response. Blocked by browser?"))     
     }else{
-        document.querySelector("#go").insertAdjacentHTML("afterend",`<p class="error" style="color:red">veuillez remplir correctement tous les champs</p>`)
+        document.querySelector("#go").insertAdjacentHTML("afterend",`<p class="error" style="color:red">Please complete all fields correctly </p>`)
     }   
 })
 
