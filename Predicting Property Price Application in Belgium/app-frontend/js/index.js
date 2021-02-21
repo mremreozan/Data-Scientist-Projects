@@ -1,4 +1,4 @@
-const proxyurl = "https://cors-anywhere.herokuapp.com/"; //indispensable pour l'API de Saba
+//const proxyurl = "https://cors-anywhere.herokuapp.com/"; //indispensable pour l'API de Saba
 // const url = "https://becode-predict-ades.herokuapp.com/predict"; //API Saba
 // {"0":{"property-type":"APARTMENT","rooms-number":2,"zip-code":1000,"full-address":"","facades-number":2,"area":150}} // API Saba
 
@@ -61,7 +61,7 @@ document.querySelector("#go").addEventListener("click",function(event){
             }
         }
         
-        fetch(proxyurl + url, {
+        fetch(url, {
             method: 'POST', 
             body: JSON.stringify(info), 
             headers: {'Content-Type': 'application/json'}
