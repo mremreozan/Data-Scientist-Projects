@@ -72,7 +72,7 @@ We iterate through all the urls that have been previously stored in the csv file
 
 Finally, we store our results in a csv file by using **pandas dataframe**, which you can also use to visualize the data. And voilà!
 
-![FINAL_CSV_PANDAS](/assets/store_csv_pandas.png)
+![FINAL_CSV_PANDAS]('/Web Scraping Data from Immoweb/assets/store_csv_pandas.png')
 
 
 ### Features Dict Layout
